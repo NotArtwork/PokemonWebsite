@@ -23,11 +23,16 @@ body {
 .pokemon-card > img {
     height: 420px;
     width: 420px;
-
 }
 
 #container {
     display:flex;
     justify-content: center;
     gap: 1%;
+}
+
+div[id^="pokemon-"] {
+    height: 100px;
+    width: 100px;
+    border: 1px solid #ccc;
 }
